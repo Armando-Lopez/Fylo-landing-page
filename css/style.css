@@ -1,0 +1,132 @@
+* { padding: 0; margin: 0; }
+
+body { font-family: "Open Sans", sans-serif; font-size: 14px; font-weight: 400; color: white; background-color: #1c2431; overflow-x: hidden; }
+
+h1, h2, h3, h4, h5, h6 { font-family: "Raleway", sans-serif; font-weight: 400; }
+
+header { background-color: #1c2431; padding: 2em 1.5em; display: -webkit-box; display: -ms-flexbox; display: flex; border: none; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; font-size: 1em; }
+
+header #logo { width: 20%; max-width: 170px; }
+
+header nav ul li { list-style: none; display: inline; margin: 0.4em; }
+
+header nav ul li a { text-decoration: none; font-weight: 300; color: white; }
+
+main { position: relative; overflow: hidden; }
+
+#intro { position: relative; padding: 2em 1.5em 0 1.5em; text-align: center; z-index: 5; }
+
+#intro #intro-img { width: 100%; max-width: 600px; margin-top: 2em; margin-bottom: 1em; }
+
+#intro h1 { font-size: 1.5em; margin-bottom: 1.5em; }
+
+#intro #bInicio { margin-top: 2em; border-radius: 1.5em; border: none; text-decoration: none; color: white; background-image: -webkit-gradient(linear, left top, right top, from(#65e2d9), to(#339ecc)); background-image: linear-gradient(to right, #65e2d9, #339ecc); padding: 1em 5em; }
+
+#features { margin-top: -47vh; }
+
+#features #curvy-mobile { width: 100%; margin-bottom: -1em; }
+
+#features #content { padding-top: 40vh; color: white; text-align: center; background-color: #181f2a; }
+
+#features #content h2 { margin-bottom: 1em; }
+
+#features #content p { margin: 0 1.5em; }
+
+#features #content img { margin-top: 3em; margin-bottom: 1em; }
+
+#productive { padding: 25vh 1.5em; background-color: #181f2a; color: white; text-align: left; }
+
+#productive img { width: 80%; max-width: 600px; margin-bottom: 3em; display: block; margin: 0 auto; }
+
+#productive h2 { margin-bottom: 1em; }
+
+#productive p { margin-bottom: 1em; }
+
+#productive a button { -ms-flex-item-align: left; -ms-grid-row-align: left; align-self: left; background: transparent; border: none; color: #65e2d9; border-bottom: 2px solid #65e2d9; }
+
+#productive a button img { float: right; width: 20px; margin: 0; margin-left: 5px; }
+
+#testimonials-container { background-color: #181f2a; color: white; text-align: left; padding-top: 1em; padding-bottom: 50vh; }
+
+#testimonials-container #quotes { width: 8%; height: 8%; margin-left: 2.5em; margin-bottom: -2.5em; }
+
+#testimonials-container .testimonials { background-color: #202a3c; margin: 2.5em; padding: 1em; border-radius: 0.25em; -webkit-box-shadow: 0 0 7px rgba(223, 223, 223, 0.137); box-shadow: 0 0 7px rgba(223, 223, 223, 0.137); }
+
+#testimonials-container .testimonials .testimonialContent { margin-top: 1.3em; display: -webkit-inline-box; display: -ms-inline-flexbox; display: inline-flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+#testimonials-container .testimonials .testimonialContent img { margin-right: 0.8em; width: 15%; border-radius: 5em; }
+
+#formOne { position: absolute; bottom: 88vh; text-align: center; margin: 0 1.5em; padding: 3em 2em 1em; border-radius: 1em; background-color: #1c2431; -webkit-box-shadow: 3px 2px 5px #0b1523; box-shadow: 3px 2px 5px #0b1523; }
+
+#formOne h2 { margin-bottom: 1em; }
+
+#formOne #email { width: 90%; margin-top: 2em; border-radius: 1.5em; border: none; padding: 1em 0.5em 1em 1.3em; }
+
+#formOne #email::-webkit-input-placeholder { color: rgba(182, 178, 178, 0.698); }
+
+#formOne #email:-ms-input-placeholder { color: rgba(182, 178, 178, 0.698); }
+
+#formOne #email::-ms-input-placeholder { color: rgba(182, 178, 178, 0.698); }
+
+#formOne #email::placeholder { color: rgba(182, 178, 178, 0.698); }
+
+#formOne #bEmail { margin-top: 2em; border-radius: 1.5em; border: none; text-decoration: none; color: white; background-image: -webkit-gradient(linear, left top, right top, from(#65e2d9), to(#339ecc)); background-image: linear-gradient(to right, #65e2d9, #339ecc); padding: 1em 2em; width: 100%; }
+
+#contacto { padding-top: 30vh; padding-left: 1.5em; background-color: #0b1523; overflow: hidden; }
+
+#contacto #phone-email { margin-top: 1em; }
+
+#contacto #phone-email img { display: inline-block; }
+
+#contacto #phone-email p { margin-top: 1em; display: inline-block; margin-left: 10px; }
+
+#contacto #logo { margin-bottom: 1.5em; }
+
+#contacto p { width: 90%; }
+
+#contacto .about { list-style: none; margin: 2em 0; display: block; }
+
+#contacto .about li { margin-bottom: 0.5em; }
+
+#contacto #redes ul { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+#contacto #redes ul li { list-style: none; margin-left: 0.8em; margin-right: 0.8em; font-size: 1.5em; border: 1px solid white; padding: 7px; height: 20px; width: 20px; border-radius: 50%; }
+
+@media screen and (min-width: 800px) { h1, h2 { font-weight: 700; }
+  header { padding: 2em 2em 2em 2em; font-size: 1.5em; }
+  header li a { margin: 0 0.5em; }
+  #intro { margin: 0 auto; text-align: center; font-size: 1.1em; padding-bottom: 0vh; }
+  #intro h1 { font-size: 2em; line-height: 1.5em; }
+  #intro p { margin: 0 auto; width: 40%; -ms-flex-item-align: center; -ms-grid-row-align: center; align-self: center; }
+  #intro #bInicio { font-weight: 500; font-size: 1.1em; }
+  #features { margin-top: -10vh; padding-top: 20vh; position: relative; }
+  #features #curvy-mobile { position: absolute; height: 400px; top: -20vh; z-index: -1; }
+  #features #content { padding-top: 0vh; display: -ms-grid; display: grid; -ms-grid-columns: 40% 40%; grid-template-columns: 40% 40%; -ms-grid-rows: 1fr 1fr; grid-template-rows: 1fr 1fr; grid-template-areas: "anywhere security" "collaboration file"; place-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+  #features #content #access-anywhere { -ms-grid-row: 1; -ms-grid-column: 1; grid-area: anywhere; padding: 0em 2em; text-align: center; }
+  #features #content #icon-security { -ms-grid-row: 1; -ms-grid-column: 2; grid-area: security; padding: 0em 2em; text-align: center; }
+  #features #content #collaboration { -ms-grid-row: 2; -ms-grid-column: 1; grid-area: collaboration; padding: 0em 2em; text-align: center; }
+  #features #content #any-file { -ms-grid-row: 2; -ms-grid-column: 2; grid-area: file; padding: 0em 2em; text-align: center; }
+  #productive { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+  #productive img { width: 40%; height: 40%; margin: 0; margin-right: 2em; }
+  #productive div { width: 40%; padding: 0; }
+  #productive div h2 { width: 50%; font-size: 2em; }
+  #testimonials-container { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; position: relative; z-index: 1; }
+  #testimonials-container .testimonials { padding-top: 40px; width: 20%; }
+  #testimonials-container .testimonial1 { position: relative; }
+  #testimonials-container .testimonial1::before { content: url("../images/bg-quotes.png"); position: absolute; top: -35px; left: -10px; z-index: -1; }
+  #testimonials-container #quotes { display: none; }
+  #formOne { bottom: 65vh; margin: 0 auto; left: 50%; -webkit-transform: translateX(-50%); transform: translateX(-50%); width: 60%; max-width: 600px; z-index: 5; }
+  #formOne div { display: -webkit-box; display: -ms-flexbox; display: flex; margin: 1em; }
+  #formOne div #bEmail { width: 30%; margin-left: 1em; margin-right: 1em; }
+  #formOne div #email { width: 55%; }
+  #contacto { position: relative; padding-bottom: 5em; padding-left: 5em; }
+  #contacto #logo { margin-left: 2em; }
+  #contacto #content { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; -webkit-box-align: baseline; -ms-flex-align: baseline; align-items: baseline; }
+  #contacto #content #location { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: baseline; -ms-flex-align: baseline; align-items: baseline; text-align: left; }
+  #contacto #content #location img { margin: 1em; display: block; }
+  #contacto #content #location p { width: 80%; }
+  #contacto #content div { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: baseline; -ms-flex-align: baseline; align-items: baseline; margin: 1em 1.5em; }
+  #contacto #content #phone-email { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; }
+  #contacto #content div img, #contacto #content div p { display: inline; }
+  #contacto #content ul { margin: 0em 2em; } }
+/*# sourceMappingURL=style.css.map */
